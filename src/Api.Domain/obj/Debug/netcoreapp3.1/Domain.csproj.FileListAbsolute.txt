@@ -1,0 +1,8 @@
+C:\Users\daisycs\curso_api_netcore\src\Api.Domain\bin\Debug\netcoreapp3.1\Domain.deps.json
+C:\Users\daisycs\curso_api_netcore\src\Api.Domain\bin\Debug\netcoreapp3.1\Domain.dll
+C:\Users\daisycs\curso_api_netcore\src\Api.Domain\bin\Debug\netcoreapp3.1\Domain.pdb
+C:\Users\daisycs\curso_api_netcore\src\Api.Domain\obj\Debug\netcoreapp3.1\Domain.csprojAssemblyReference.cache
+C:\Users\daisycs\curso_api_netcore\src\Api.Domain\obj\Debug\netcoreapp3.1\Domain.AssemblyInfoInputs.cache
+C:\Users\daisycs\curso_api_netcore\src\Api.Domain\obj\Debug\netcoreapp3.1\Domain.AssemblyInfo.cs
+C:\Users\daisycs\curso_api_netcore\src\Api.Domain\obj\Debug\netcoreapp3.1\Domain.dll
+C:\Users\daisycs\curso_api_netcore\src\Api.Domain\obj\Debug\netcoreapp3.1\Domain.pdb
