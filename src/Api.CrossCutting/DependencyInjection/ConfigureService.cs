@@ -1,5 +1,3 @@
-using Api.Data.Repository;
-using Api.Domain.Interfaces;
 using Api.Domain.Interfaces.Services.User;
 using Api.Service.Services;
 using Microsoft.Extensions.DependencyInjection;
