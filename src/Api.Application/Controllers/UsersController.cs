@@ -9,7 +9,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace Api.Application.Controllers
 {
-    //http://localhost:5000/api/users
+    
     [Route("api/[controller]")]
     [ApiController]
     public class UsersController : ControllerBase
@@ -20,13 +20,13 @@ namespace Api.Application.Controllers
             _service = service;
         }
 
-        [Authorize("Bearer")]
+       [Authorize("Bearer")]
         [HttpGet]
         public async Task<ActionResult> GetAll()
         {
             if (!ModelState.IsValid)
             {
-                return BadRequest(ModelState);  // 400 Bad Request - Solicitação Inválida
+                return BadRequest(ModelState);  
             }
             try
             {
@@ -38,7 +38,7 @@ namespace Api.Application.Controllers
             }
         }
 
-        [Authorize("Bearer")]
+       [Authorize("Bearer")]
         [HttpGet]
         [Route("{id}", Name = "GetWithId")]
         public async Task<ActionResult> Get(Guid id)
@@ -83,7 +83,7 @@ namespace Api.Application.Controllers
             }
         }
 
-        [Authorize("Bearer")]
+       [Authorize("Bearer")]
         [HttpPut]
         public async Task<ActionResult> Put([FromBody] UserDtoUpdate user)
         {

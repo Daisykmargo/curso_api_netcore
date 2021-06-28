@@ -13,6 +13,8 @@ using Microsoft.AspNetCore.Authentication.JwtBearer;
 using System.Collections.Generic;
 using Api.CrossCutting.Mappings;
 using AutoMapper;
+using Api.Data.Context;
+using Microsoft.EntityFrameworkCore;
 
 namespace application
 {
@@ -25,19 +27,19 @@ namespace application
 
         public IConfiguration Configuration { get; }
 
-        
+
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddControllers();
 
             ConfigureService.ConfigureDependenciesService(services);
             ConfigureRepository.ConfigureDependenciesRepository(services);
-
             var config = new AutoMapper.MapperConfiguration(cfg =>
-                        {
-                            cfg.AddProfile(new DtoToModelProfile());
-                            cfg.AddProfile(new EntityToDtoProfile());
-                            cfg.AddProfile(new ModelToEntityProfile());
-                        });
+            {
+                cfg.AddProfile(new DtoToModelProfile());
+                cfg.AddProfile(new EntityToDtoProfile());
+                cfg.AddProfile(new ModelToEntityProfile());
+            });
 
             IMapper mapper = config.CreateMapper();
             services.AddSingleton(mapper);
@@ -62,17 +64,17 @@ namespace application
                 paramsValidation.ValidAudience = tokenConfigurations.Audience;
                 paramsValidation.ValidIssuer = tokenConfigurations.Issuer;
 
-                
+
                 paramsValidation.ValidateIssuerSigningKey = true;
 
-                
+
                 paramsValidation.ValidateLifetime = true;
 
-                
+
                 paramsValidation.ClockSkew = TimeSpan.Zero;
             });
 
-            
+
             services.AddAuthorization(auth =>
             {
                 auth.AddPolicy("Bearer", new AuthorizationPolicyBuilder()
@@ -122,7 +124,7 @@ namespace application
             });
         }
 
-        
+
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
             if (env.IsDevelopment())
@@ -145,6 +147,18 @@ namespace application
             {
                 endpoints.MapControllers();
             });
+
+            if (Environment.GetEnvironmentVariable("MIGRATION").ToLower() == "APLICAR".ToLower())
+            {
+                using (var service = app.ApplicationServices.GetRequiredService<IServiceScopeFactory>()
+                                                            .CreateScope())
+                {
+                    using (var context = service.ServiceProvider.GetService<MyContext>())
+                    {
+                        context.Database.Migrate();
+                    }
+                }
+            }
         }
     }
 }
