@@ -1,5 +1,5 @@
 using Api.Data.Context;
-using Api.Data.Implementation;
+using Api.Data.Implementations;
 using Api.Data.Repository;
 using Api.Domain.Interfaces;
 using Api.Domain.Repository;
@@ -14,10 +14,10 @@ namespace Api.CrossCutting.DependencyInjection
         {
             serviceCollection.AddScoped(typeof(IRepository<>), typeof(BaseRepository<>));
             serviceCollection.AddScoped<IUserRepository, UserImplementation>();
+            serviceCollection.AddDbContext<MyContext>(
+                options => options.UseMySql("Server=localhost;Port=3306;Database=dbAPI;Uid=root,Pwd=Da632030!")
+            );
 
-
-             serviceCollection.AddDbContext<MyContext> (
-                options => options.UseMySql ("Server=localhost;Port=3306;Database=dbAPI;Uid=root;Pwd=Da632030!"));
         }
     }
 }

@@ -11,6 +11,8 @@ using Microsoft.OpenApi.Models;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using System.Collections.Generic;
+using Api.CrossCutting.Mappings;
+using AutoMapper;
 
 namespace application
 {
@@ -23,13 +25,23 @@ namespace application
 
         public IConfiguration Configuration { get; }
 
-        // This method gets called by the runtime. Use this method to add services to the container.
+        
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddControllers();
 
             ConfigureService.ConfigureDependenciesService(services);
             ConfigureRepository.ConfigureDependenciesRepository(services);
+
+            var config = new AutoMapper.MapperConfiguration(cfg =>
+                        {
+                            cfg.AddProfile(new DtoToModelProfile());
+                            cfg.AddProfile(new EntityToDtoProfile());
+                            cfg.AddProfile(new ModelToEntityProfile());
+                        });
+
+            IMapper mapper = config.CreateMapper();
+            services.AddSingleton(mapper);
+
             var signingConfigurations = new SigningConfigurations();
             services.AddSingleton(signingConfigurations);
 
@@ -50,20 +62,17 @@ namespace application
                 paramsValidation.ValidAudience = tokenConfigurations.Audience;
                 paramsValidation.ValidIssuer = tokenConfigurations.Issuer;
 
-                // Valida a assinatura de um token recebido
+                
                 paramsValidation.ValidateIssuerSigningKey = true;
 
-                // Verifica se um token recebido ainda é válido
+                
                 paramsValidation.ValidateLifetime = true;
 
-                // Tempo de tolerância para a expiração de um token (utilizado
-                // caso haja problemas de sincronismo de horário entre diferentes
-                // computadores envolvidos no processo de comunicação)
+                
                 paramsValidation.ClockSkew = TimeSpan.Zero;
             });
 
-            // Ativa o uso do token como forma de autorizar o acesso
-            // a recursos deste projeto
+            
             services.AddAuthorization(auth =>
             {
                 auth.AddPolicy("Bearer", new AuthorizationPolicyBuilder()
@@ -113,7 +122,7 @@ namespace application
             });
         }
 
-        // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
+        
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
             if (env.IsDevelopment())
