@@ -8297,11 +8297,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Users\\daisycs\\curso_api_netcore\\src\\Api.Service.Test\\Api.Service.Test.csproj",
+      "projectUniqueName": "C:\\Users\\daisycs\\curso_api_netcore\\src\\Api.Service.Test\\Api.Service.Test.csproj",
       "projectName": "Api.Service.Test",
-      "projectPath": "c:\\Users\\daisycs\\curso_api_netcore\\src\\Api.Service.Test\\Api.Service.Test.csproj",
+      "projectPath": "C:\\Users\\daisycs\\curso_api_netcore\\src\\Api.Service.Test\\Api.Service.Test.csproj",
       "packagesPath": "C:\\Users\\daisycs\\.nuget\\packages\\",
-      "outputPath": "c:\\Users\\daisycs\\curso_api_netcore\\src\\Api.Service.Test\\obj\\",
+      "outputPath": "C:\\Users\\daisycs\\curso_api_netcore\\src\\Api.Service.Test\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\daisycs\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -8315,14 +8315,14 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "c:\\Users\\daisycs\\curso_api_netcore\\src\\Api.CrossCutting\\CrossCutting.csproj": {
-              "projectPath": "c:\\Users\\daisycs\\curso_api_netcore\\src\\Api.CrossCutting\\CrossCutting.csproj"
+            "C:\\Users\\daisycs\\curso_api_netcore\\src\\Api.CrossCutting\\CrossCutting.csproj": {
+              "projectPath": "C:\\Users\\daisycs\\curso_api_netcore\\src\\Api.CrossCutting\\CrossCutting.csproj"
             },
-            "c:\\Users\\daisycs\\curso_api_netcore\\src\\Api.Domain\\Domain.csproj": {
-              "projectPath": "c:\\Users\\daisycs\\curso_api_netcore\\src\\Api.Domain\\Domain.csproj"
+            "C:\\Users\\daisycs\\curso_api_netcore\\src\\Api.Domain\\Domain.csproj": {
+              "projectPath": "C:\\Users\\daisycs\\curso_api_netcore\\src\\Api.Domain\\Domain.csproj"
             },
-            "c:\\Users\\daisycs\\curso_api_netcore\\src\\Api.Service\\Service.csproj": {
-              "projectPath": "c:\\Users\\daisycs\\curso_api_netcore\\src\\Api.Service\\Service.csproj"
+            "C:\\Users\\daisycs\\curso_api_netcore\\src\\Api.Service\\Service.csproj": {
+              "projectPath": "C:\\Users\\daisycs\\curso_api_netcore\\src\\Api.Service\\Service.csproj"
             }
           }
         }
