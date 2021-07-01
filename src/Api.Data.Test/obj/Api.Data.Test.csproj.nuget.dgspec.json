@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\daisycs\\curso_api_netcore\\src\\Api.Data.test\\Api.Data.Test.csproj": {}
+    "C:\\Users\\daisycs\\curso_api_netcore\\src\\Api.Data.Test\\Api.Data.Test.csproj": {}
   },
   "projects": {
-    "c:\\Users\\daisycs\\curso_api_netcore\\src\\Api.CrossCutting\\CrossCutting.csproj": {
+    "C:\\Users\\daisycs\\curso_api_netcore\\src\\Api.CrossCutting\\CrossCutting.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\daisycs\\curso_api_netcore\\src\\Api.CrossCutting\\CrossCutting.csproj",
+        "projectUniqueName": "C:\\Users\\daisycs\\curso_api_netcore\\src\\Api.CrossCutting\\CrossCutting.csproj",
         "projectName": "CrossCutting",
-        "projectPath": "c:\\Users\\daisycs\\curso_api_netcore\\src\\Api.CrossCutting\\CrossCutting.csproj",
+        "projectPath": "C:\\Users\\daisycs\\curso_api_netcore\\src\\Api.CrossCutting\\CrossCutting.csproj",
         "packagesPath": "C:\\Users\\daisycs\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\daisycs\\curso_api_netcore\\src\\Api.CrossCutting\\obj\\",
+        "outputPath": "C:\\Users\\daisycs\\curso_api_netcore\\src\\Api.CrossCutting\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\daisycs\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -25,14 +25,14 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "c:\\Users\\daisycs\\curso_api_netcore\\src\\Api.Data\\Data.csproj": {
-                "projectPath": "c:\\Users\\daisycs\\curso_api_netcore\\src\\Api.Data\\Data.csproj"
+              "C:\\Users\\daisycs\\curso_api_netcore\\src\\Api.Data\\Data.csproj": {
+                "projectPath": "C:\\Users\\daisycs\\curso_api_netcore\\src\\Api.Data\\Data.csproj"
               },
-              "c:\\Users\\daisycs\\curso_api_netcore\\src\\Api.Domain\\Domain.csproj": {
-                "projectPath": "c:\\Users\\daisycs\\curso_api_netcore\\src\\Api.Domain\\Domain.csproj"
+              "C:\\Users\\daisycs\\curso_api_netcore\\src\\Api.Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\daisycs\\curso_api_netcore\\src\\Api.Domain\\Domain.csproj"
               },
-              "c:\\Users\\daisycs\\curso_api_netcore\\src\\Api.Service\\Service.csproj": {
-                "projectPath": "c:\\Users\\daisycs\\curso_api_netcore\\src\\Api.Service\\Service.csproj"
+              "C:\\Users\\daisycs\\curso_api_netcore\\src\\Api.Service\\Service.csproj": {
+                "projectPath": "C:\\Users\\daisycs\\curso_api_netcore\\src\\Api.Service\\Service.csproj"
               }
             }
           }
@@ -74,14 +74,14 @@
         }
       }
     },
-    "c:\\Users\\daisycs\\curso_api_netcore\\src\\Api.Data.test\\Api.Data.Test.csproj": {
+    "C:\\Users\\daisycs\\curso_api_netcore\\src\\Api.Data.Test\\Api.Data.Test.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\daisycs\\curso_api_netcore\\src\\Api.Data.test\\Api.Data.Test.csproj",
+        "projectUniqueName": "C:\\Users\\daisycs\\curso_api_netcore\\src\\Api.Data.Test\\Api.Data.Test.csproj",
         "projectName": "Api.Data.Test",
-        "projectPath": "c:\\Users\\daisycs\\curso_api_netcore\\src\\Api.Data.test\\Api.Data.Test.csproj",
+        "projectPath": "C:\\Users\\daisycs\\curso_api_netcore\\src\\Api.Data.Test\\Api.Data.Test.csproj",
         "packagesPath": "C:\\Users\\daisycs\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\daisycs\\curso_api_netcore\\src\\Api.Data.test\\obj\\",
+        "outputPath": "C:\\Users\\daisycs\\curso_api_netcore\\src\\Api.Data.Test\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\daisycs\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -95,14 +95,14 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "c:\\Users\\daisycs\\curso_api_netcore\\src\\Api.CrossCutting\\CrossCutting.csproj": {
-                "projectPath": "c:\\Users\\daisycs\\curso_api_netcore\\src\\Api.CrossCutting\\CrossCutting.csproj"
+              "C:\\Users\\daisycs\\curso_api_netcore\\src\\Api.CrossCutting\\CrossCutting.csproj": {
+                "projectPath": "C:\\Users\\daisycs\\curso_api_netcore\\src\\Api.CrossCutting\\CrossCutting.csproj"
               },
-              "c:\\Users\\daisycs\\curso_api_netcore\\src\\Api.Data\\Data.csproj": {
-                "projectPath": "c:\\Users\\daisycs\\curso_api_netcore\\src\\Api.Data\\Data.csproj"
+              "C:\\Users\\daisycs\\curso_api_netcore\\src\\Api.Data\\Data.csproj": {
+                "projectPath": "C:\\Users\\daisycs\\curso_api_netcore\\src\\Api.Data\\Data.csproj"
               },
-              "c:\\Users\\daisycs\\curso_api_netcore\\src\\Api.Domain\\Domain.csproj": {
-                "projectPath": "c:\\Users\\daisycs\\curso_api_netcore\\src\\Api.Domain\\Domain.csproj"
+              "C:\\Users\\daisycs\\curso_api_netcore\\src\\Api.Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\daisycs\\curso_api_netcore\\src\\Api.Domain\\Domain.csproj"
               }
             }
           }
@@ -160,14 +160,14 @@
         }
       }
     },
-    "c:\\Users\\daisycs\\curso_api_netcore\\src\\Api.Data\\Data.csproj": {
+    "C:\\Users\\daisycs\\curso_api_netcore\\src\\Api.Data\\Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\daisycs\\curso_api_netcore\\src\\Api.Data\\Data.csproj",
+        "projectUniqueName": "C:\\Users\\daisycs\\curso_api_netcore\\src\\Api.Data\\Data.csproj",
         "projectName": "Data",
-        "projectPath": "c:\\Users\\daisycs\\curso_api_netcore\\src\\Api.Data\\Data.csproj",
+        "projectPath": "C:\\Users\\daisycs\\curso_api_netcore\\src\\Api.Data\\Data.csproj",
         "packagesPath": "C:\\Users\\daisycs\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\daisycs\\curso_api_netcore\\src\\Api.Data\\obj\\",
+        "outputPath": "C:\\Users\\daisycs\\curso_api_netcore\\src\\Api.Data\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\daisycs\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -181,8 +181,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "c:\\Users\\daisycs\\curso_api_netcore\\src\\Api.Domain\\Domain.csproj": {
-                "projectPath": "c:\\Users\\daisycs\\curso_api_netcore\\src\\Api.Domain\\Domain.csproj"
+              "C:\\Users\\daisycs\\curso_api_netcore\\src\\Api.Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\daisycs\\curso_api_netcore\\src\\Api.Domain\\Domain.csproj"
               }
             }
           }
@@ -236,14 +236,14 @@
         }
       }
     },
-    "c:\\Users\\daisycs\\curso_api_netcore\\src\\Api.Domain\\Domain.csproj": {
+    "C:\\Users\\daisycs\\curso_api_netcore\\src\\Api.Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\daisycs\\curso_api_netcore\\src\\Api.Domain\\Domain.csproj",
+        "projectUniqueName": "C:\\Users\\daisycs\\curso_api_netcore\\src\\Api.Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "c:\\Users\\daisycs\\curso_api_netcore\\src\\Api.Domain\\Domain.csproj",
+        "projectPath": "C:\\Users\\daisycs\\curso_api_netcore\\src\\Api.Domain\\Domain.csproj",
         "packagesPath": "C:\\Users\\daisycs\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\daisycs\\curso_api_netcore\\src\\Api.Domain\\obj\\",
+        "outputPath": "C:\\Users\\daisycs\\curso_api_netcore\\src\\Api.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\daisycs\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -292,14 +292,14 @@
         }
       }
     },
-    "c:\\Users\\daisycs\\curso_api_netcore\\src\\Api.Service\\Service.csproj": {
+    "C:\\Users\\daisycs\\curso_api_netcore\\src\\Api.Service\\Service.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\daisycs\\curso_api_netcore\\src\\Api.Service\\Service.csproj",
+        "projectUniqueName": "C:\\Users\\daisycs\\curso_api_netcore\\src\\Api.Service\\Service.csproj",
         "projectName": "Service",
-        "projectPath": "c:\\Users\\daisycs\\curso_api_netcore\\src\\Api.Service\\Service.csproj",
+        "projectPath": "C:\\Users\\daisycs\\curso_api_netcore\\src\\Api.Service\\Service.csproj",
         "packagesPath": "C:\\Users\\daisycs\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\daisycs\\curso_api_netcore\\src\\Api.Service\\obj\\",
+        "outputPath": "C:\\Users\\daisycs\\curso_api_netcore\\src\\Api.Service\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\daisycs\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -313,11 +313,11 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "c:\\Users\\daisycs\\curso_api_netcore\\src\\Api.Data\\Data.csproj": {
-                "projectPath": "c:\\Users\\daisycs\\curso_api_netcore\\src\\Api.Data\\Data.csproj"
+              "C:\\Users\\daisycs\\curso_api_netcore\\src\\Api.Data\\Data.csproj": {
+                "projectPath": "C:\\Users\\daisycs\\curso_api_netcore\\src\\Api.Data\\Data.csproj"
               },
-              "c:\\Users\\daisycs\\curso_api_netcore\\src\\Api.Domain\\Domain.csproj": {
-                "projectPath": "c:\\Users\\daisycs\\curso_api_netcore\\src\\Api.Domain\\Domain.csproj"
+              "C:\\Users\\daisycs\\curso_api_netcore\\src\\Api.Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\daisycs\\curso_api_netcore\\src\\Api.Domain\\Domain.csproj"
               }
             }
           }
