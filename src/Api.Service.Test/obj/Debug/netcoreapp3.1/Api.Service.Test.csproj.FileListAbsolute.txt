@@ -146,3 +146,4 @@ C:\Users\daisycs\curso_api_netcore\src\Api.Service.Test\obj\Debug\netcoreapp3.1\
 C:\Users\daisycs\curso_api_netcore\src\Api.Service.Test\obj\Debug\netcoreapp3.1\Api.Service.Test.pdb
 c:\Users\daisycs\curso_api_netcore\src\Api.Service.Test\bin\Debug\netcoreapp3.1\Faker.NETCore.dll
 c:\Users\daisycs\curso_api_netcore\src\Api.Service.Test\bin\Debug\netcoreapp3.1\de-DE\Faker.NETCore.resources.dll
+C:\Users\daisycs\curso_api_netcore\src\Api.Service.Test\bin\Debug\netcoreapp3.1\Xunit.runner.json
