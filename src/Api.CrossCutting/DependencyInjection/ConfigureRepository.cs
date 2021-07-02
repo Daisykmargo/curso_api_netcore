@@ -16,7 +16,10 @@ namespace Api.CrossCutting.DependencyInjection
             serviceCollection.AddScoped(typeof(IRepository<>), typeof(BaseRepository<>));
             serviceCollection.AddScoped<IUserRepository, UserImplementation>();
 
-             
+            serviceCollection.AddScoped<IUfRepository, UfImplementation>();
+            serviceCollection.AddScoped<IMunicipioRepository, MunicipioImplementation>();
+            serviceCollection.AddScoped<ICepRepository, CepImplementation>();
+
             if (Environment.GetEnvironmentVariable("DATABASE").ToLower() == "SQLSERVER".ToLower())
             {
                 serviceCollection.AddDbContext<MyContext>(
@@ -26,9 +29,8 @@ namespace Api.CrossCutting.DependencyInjection
             else
             {
                 serviceCollection.AddDbContext<MyContext>(
-                options => options.UseMySql(Environment.GetEnvironmentVariable("DB_CONNECTION"))
-             );
-
+                    options => options.UseMySql(Environment.GetEnvironmentVariable("DB_CONNECTION"))
+                );
             }
         }
     }
