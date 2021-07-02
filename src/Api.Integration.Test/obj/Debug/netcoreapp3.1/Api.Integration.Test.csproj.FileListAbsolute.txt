@@ -158,3 +158,4 @@ C:\Users\daisycs\curso_api_netcore\src\Api.Integration.Test\obj\Debug\netcoreapp
 C:\Users\daisycs\curso_api_netcore\src\Api.Integration.Test\obj\Debug\netcoreapp3.1\Api.Integration.Test.csproj.CopyComplete
 C:\Users\daisycs\curso_api_netcore\src\Api.Integration.Test\obj\Debug\netcoreapp3.1\Api.Integration.Test.dll
 C:\Users\daisycs\curso_api_netcore\src\Api.Integration.Test\obj\Debug\netcoreapp3.1\Api.Integration.Test.pdb
+c:\Users\daisycs\curso_api_netcore\src\Api.Integration.Test\bin\Debug\netcoreapp3.1\Xunit.runner.json
